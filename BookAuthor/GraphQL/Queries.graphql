@@ -1,0 +1,8 @@
+query getAllUser {
+  users {
+    name
+    id
+  }
+}
+
+

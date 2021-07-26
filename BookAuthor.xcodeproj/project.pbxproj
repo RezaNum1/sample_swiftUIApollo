@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0370FAB626AB424200B5BFF9 /* BookAuthorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0370FAB526AB424200B5BFF9 /* BookAuthorApp.swift */; };
+		0370FABA26AB424400B5BFF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0370FAB926AB424400B5BFF9 /* Assets.xcassets */; };
+		0370FABD26AB424400B5BFF9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0370FABC26AB424400B5BFF9 /* Preview Assets.xcassets */; };
+		0370FAC526AB427000B5BFF9 /* ListAuthor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0370FAC426AB427000B5BFF9 /* ListAuthor.swift */; };
+		0370FAC726AB428000B5BFF9 /* DetailAuthor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0370FAC626AB428000B5BFF9 /* DetailAuthor.swift */; };
+		0370FAC926AB428B00B5BFF9 /* AddAuthor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0370FAC826AB428B00B5BFF9 /* AddAuthor.swift */; };
+		0370FACB26AB42F100B5BFF9 /* schema.json in Resources */ = {isa = PBXBuildFile; fileRef = 0370FACA26AB42F100B5BFF9 /* schema.json */; };
+		0370FACE26AB435000B5BFF9 /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = 0370FACD26AB435000B5BFF9 /* Apollo */; };
+		0370FAD226AB444300B5BFF9 /* Queries.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 0370FAD126AB444300B5BFF9 /* Queries.graphql */; };
+		0370FAD426AB45F400B5BFF9 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0370FAD326AB45F400B5BFF9 /* API.swift */; };
+		0370FAD626AB461A00B5BFF9 /* Apollo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0370FAD526AB461A00B5BFF9 /* Apollo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0370FAB226AB424200B5BFF9 /* BookAuthor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookAuthor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0370FAB526AB424200B5BFF9 /* BookAuthorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookAuthorApp.swift; sourceTree = "<group>"; };
+		0370FAB926AB424400B5BFF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0370FABC26AB424400B5BFF9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0370FABE26AB424400B5BFF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0370FAC426AB427000B5BFF9 /* ListAuthor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListAuthor.swift; sourceTree = "<group>"; };
+		0370FAC626AB428000B5BFF9 /* DetailAuthor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailAuthor.swift; sourceTree = "<group>"; };
+		0370FAC826AB428B00B5BFF9 /* AddAuthor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAuthor.swift; sourceTree = "<group>"; };
+		0370FACA26AB42F100B5BFF9 /* schema.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = schema.json; sourceTree = "<group>"; };
+		0370FAD126AB444300B5BFF9 /* Queries.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = Queries.graphql; sourceTree = "<group>"; };
+		0370FAD326AB45F400B5BFF9 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = API.swift; path = BookAuthor/API.swift; sourceTree = SOURCE_ROOT; };
+		0370FAD526AB461A00B5BFF9 /* Apollo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apollo.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0370FAAF26AB424200B5BFF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0370FACE26AB435000B5BFF9 /* Apollo in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0370FAA926AB424200B5BFF9 = {
+			isa = PBXGroup;
+			children = (
+				0370FAB426AB424200B5BFF9 /* BookAuthor */,
+				0370FAB326AB424200B5BFF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0370FAB326AB424200B5BFF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0370FAB226AB424200B5BFF9 /* BookAuthor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0370FAB426AB424200B5BFF9 /* BookAuthor */ = {
+			isa = PBXGroup;
+			children = (
+				0370FACA26AB42F100B5BFF9 /* schema.json */,
+				0370FAD026AB440C00B5BFF9 /* GraphQL */,
+				0370FAB526AB424200B5BFF9 /* BookAuthorApp.swift */,
+				0370FAB926AB424400B5BFF9 /* Assets.xcassets */,
+				0370FABE26AB424400B5BFF9 /* Info.plist */,
+				0370FABB26AB424400B5BFF9 /* Preview Content */,
+				0370FAC426AB427000B5BFF9 /* ListAuthor.swift */,
+				0370FAC626AB428000B5BFF9 /* DetailAuthor.swift */,
+				0370FAC826AB428B00B5BFF9 /* AddAuthor.swift */,
+			);
+			path = BookAuthor;
+			sourceTree = "<group>";
+		};
+		0370FABB26AB424400B5BFF9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0370FABC26AB424400B5BFF9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0370FAD026AB440C00B5BFF9 /* GraphQL */ = {
+			isa = PBXGroup;
+			children = (
+				0370FAD326AB45F400B5BFF9 /* API.swift */,
+				0370FAD126AB444300B5BFF9 /* Queries.graphql */,
+				0370FAD526AB461A00B5BFF9 /* Apollo.swift */,
+			);
+			path = GraphQL;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0370FAB126AB424200B5BFF9 /* BookAuthor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0370FAC126AB424400B5BFF9 /* Build configuration list for PBXNativeTarget "BookAuthor" */;
+			buildPhases = (
+				0370FACF26AB43AA00B5BFF9 /* Generate Apollo GraphQL API */,
+				0370FAAE26AB424200B5BFF9 /* Sources */,
+				0370FAAF26AB424200B5BFF9 /* Frameworks */,
+				0370FAB026AB424200B5BFF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BookAuthor;
+			packageProductDependencies = (
+				0370FACD26AB435000B5BFF9 /* Apollo */,
+			);
+			productName = BookAuthor;
+			productReference = 0370FAB226AB424200B5BFF9 /* BookAuthor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0370FAAA26AB424200B5BFF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					0370FAB126AB424200B5BFF9 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 0370FAAD26AB424200B5BFF9 /* Build configuration list for PBXProject "BookAuthor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0370FAA926AB424200B5BFF9;
+			packageReferences = (
+				0370FACC26AB435000B5BFF9 /* XCRemoteSwiftPackageReference "apollo-ios" */,
+			);
+			productRefGroup = 0370FAB326AB424200B5BFF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0370FAB126AB424200B5BFF9 /* BookAuthor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0370FAB026AB424200B5BFF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0370FABD26AB424400B5BFF9 /* Preview Assets.xcassets in Resources */,
+				0370FACB26AB42F100B5BFF9 /* schema.json in Resources */,
+				0370FAD226AB444300B5BFF9 /* Queries.graphql in Resources */,
+				0370FABA26AB424400B5BFF9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0370FACF26AB43AA00B5BFF9 /* Generate Apollo GraphQL API */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Generate Apollo GraphQL API";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Go to the build root and search up the chain to find the Derived Data Path where the source packages are checked out.\nDERIVED_DATA_CANDIDATE=\"${BUILD_ROOT}\"\n\nwhile ! [ -d \"${DERIVED_DATA_CANDIDATE}/SourcePackages\" ]; do\n  if [ \"${DERIVED_DATA_CANDIDATE}\" = / ]; then\n    echo >&2 \"error: Unable to locate SourcePackages directory from BUILD_ROOT: '${BUILD_ROOT}'\"\n    exit 1\n  fi\n\n  DERIVED_DATA_CANDIDATE=\"$(dirname \"${DERIVED_DATA_CANDIDATE}\")\"\ndone\n\n# Grab a reference to the directory where scripts are checked out\nSCRIPT_PATH=\"${DERIVED_DATA_CANDIDATE}/SourcePackages/checkouts/apollo-ios/scripts\"\n\nif [ -z \"${SCRIPT_PATH}\" ]; then\n    echo >&2 \"error: Couldn't find the CLI script in your checked out SPM packages; make sure to add the framework to your project.\"\n    exit 1\nfi\n\ncd \"${SRCROOT}/${TARGET_NAME}\"\n\"${SCRIPT_PATH}\"/run-bundled-codegen.sh codegen:generate --target=swift --includes=./**/*.graphql --localSchemaFile=\"schema.json\" API.swift\n\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0370FAAE26AB424200B5BFF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0370FAC526AB427000B5BFF9 /* ListAuthor.swift in Sources */,
+				0370FAB626AB424200B5BFF9 /* BookAuthorApp.swift in Sources */,
+				0370FAC926AB428B00B5BFF9 /* AddAuthor.swift in Sources */,
+				0370FAC726AB428000B5BFF9 /* DetailAuthor.swift in Sources */,
+				0370FAD626AB461A00B5BFF9 /* Apollo.swift in Sources */,
+				0370FAD426AB45F400B5BFF9 /* API.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0370FABF26AB424400B5BFF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0370FAC026AB424400B5BFF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0370FAC226AB424400B5BFF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BookAuthor/Preview Content\"";
+				DEVELOPMENT_TEAM = 2FT28A9D5B;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BookAuthor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rezz.BookAuthor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0370FAC326AB424400B5BFF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BookAuthor/Preview Content\"";
+				DEVELOPMENT_TEAM = 2FT28A9D5B;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BookAuthor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rezz.BookAuthor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0370FAAD26AB424200B5BFF9 /* Build configuration list for PBXProject "BookAuthor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0370FABF26AB424400B5BFF9 /* Debug */,
+				0370FAC026AB424400B5BFF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0370FAC126AB424400B5BFF9 /* Build configuration list for PBXNativeTarget "BookAuthor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0370FAC226AB424400B5BFF9 /* Debug */,
+				0370FAC326AB424400B5BFF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0370FACC26AB435000B5BFF9 /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apollographql/apollo-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.45.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0370FACD26AB435000B5BFF9 /* Apollo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0370FACC26AB435000B5BFF9 /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = Apollo;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 0370FAAA26AB424200B5BFF9 /* Project object */;
+}
